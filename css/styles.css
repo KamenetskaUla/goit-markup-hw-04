@@ -108,6 +108,11 @@ a {
 .page-title-fon {
   background-color: #2e2f42;
 
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ .jpg);
   width: auto;
   height: 600px;
   flex-shrink: 0;
