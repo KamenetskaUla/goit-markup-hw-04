@@ -373,15 +373,14 @@ a {
 
 /*------Footer--------*/
 .foter {
-  padding-left: 156px;
 }
 .footer-fon {
   background-color: #2e2f42;
-  padding: 100px 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
   width: auto;
+  display: flex;
+  gap: 120px;
+  padding: 100px 0;
+  padding-left: 156px;
 }
 .text-footer {
   color: #f4f4fd;
@@ -411,8 +410,6 @@ a {
   flex-direction: column;
   gap: 24px;
 
-  align-items: center;
-
   background-color: #2e2f42;
 }
 .footer-soc-icons-link {
@@ -425,7 +422,10 @@ a {
 }
 .footer-soc-media {
   color: #fff;
-  padding-left: 0;
-  display: flex;
-  justify-content: flex-start;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
