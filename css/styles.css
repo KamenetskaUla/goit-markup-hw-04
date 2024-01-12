@@ -199,6 +199,8 @@ a {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background: #f4f4fd;
+  justify-content: center;
+  align-items: center;
 }
 .head-item {
   font-size: 20px;
@@ -247,9 +249,15 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
-  padding: 32px 0;
-
+  padding: 32px;
+  gap: 8px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: auto;
 }
 .team-fon {
   background-color: #f4f4fd;
@@ -272,6 +280,9 @@ a {
   background-color: #ffffff;
   text-align: center;
   border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  width: 264px;
 }
 .team-item {
   font-size: 20px;
@@ -281,7 +292,6 @@ a {
   text-align: center;
   color: #2e2f42;
   display: block;
-  margin-bottom: 8px;
 }
 .text-team {
   color: #434455;
@@ -290,6 +300,24 @@ a {
 
   letter-spacing: 0.02em;
   text-align: center;
+}
+.soc-net-icon {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.icon-items {
+  display: flex;
+
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+  justify-content: center;
+  align-items: center;
 }
 
 /*-----Portfolio------*/
@@ -345,11 +373,15 @@ a {
 
 /*------Footer--------*/
 .foter {
-  padding: 100px 0;
+  padding-left: 156px;
 }
 .footer-fon {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: auto;
 }
 .text-footer {
   color: #f4f4fd;
@@ -373,4 +405,27 @@ a {
 }
 .logo-web-footer {
   color: #f4f4fd;
+}
+.footer-soc-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  align-items: center;
+
+  background-color: #2e2f42;
+}
+.footer-soc-icons-link {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #2e2f42;
+}
+.footer-soc-media {
+  color: #fff;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
 }
