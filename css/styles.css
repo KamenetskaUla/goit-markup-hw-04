@@ -218,6 +218,7 @@ a {
   background: #f4f4fd;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 .head-item {
   font-size: 20px;
