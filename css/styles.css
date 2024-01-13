@@ -273,7 +273,7 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
-  padding: 32px;
+  padding: 32px 0;
   gap: 8px;
   text-align: center;
   display: flex;
@@ -337,17 +337,25 @@ a {
   background-color: #ffffff;
 }
 .icon-items {
-  display: flex;
+  /*display: flex;
 
   background-color: #4d5ae5;
-  border-radius: 50%;
+  border-radius: 50%;*/
   width: 40px;
   height: 40px;
 
+  /*justify-content: center;
+  align-items: center;*/
+}
+.link-soc {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
-
 /*-----Portfolio------*/
 
 .title-port {
@@ -441,8 +449,7 @@ a {
 }
 
 /*------Footer--------*/
-.foter {
-}
+
 .footer-fon {
   background-color: #2e2f42;
   width: auto;
