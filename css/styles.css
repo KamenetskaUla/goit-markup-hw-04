@@ -543,9 +543,14 @@ a {
 
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms (0.4, 0, 0.2, 1);
 }
 
 .link-soc-fot:hover,
 .link-soc-fot:focus {
+  background-color: #31d0aa;
+}
+.icon-items-footer:hover,
+.icon-items-footer:focus {
   background-color: #31d0aa;
 }
