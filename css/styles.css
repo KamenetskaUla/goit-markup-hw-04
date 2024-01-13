@@ -135,8 +135,6 @@ a {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
-}
-.page-title-fon {
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -145,6 +143,15 @@ a {
   padding-bottom: 188px;
   align-items: center;
 }
+/*.page-title-fon {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  align-items: center;
+}*/
 .page-title {
   font-size: 56px;
   font-weight: 700;
