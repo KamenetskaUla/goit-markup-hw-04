@@ -371,12 +371,13 @@ a {
   row-gap: 48px;
 }
 .port-item {
-  width: calc((100% - 48px) / 3);}
+  width: calc((100% - 48px) / 3);
+}
 
- .port-item-ov{ 
+.port-item-ov {
   position: relative;
   overflow: hidden;
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*.overlay {
   position: absolute;
@@ -393,23 +394,22 @@ a {
   transition: transform 250ms ease-in-out;
   background-color: #4d5ae5;}*/
 
-.text-overlay{
+.text-overlay {
   font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-padding: 40px 32px;
-width: 100%;
-color:#F4F4FD;
-position: absolute;
-top: 0;
- background-color: #4d5ae5; 
- height: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  width: 100%;
+  color: #f4f4fd;
+  position: absolute;
+  top: 0;
+  background-color: #4d5ae5;
+  height: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .port-item:hover .text-overlay {
   transform: translateX(0);
