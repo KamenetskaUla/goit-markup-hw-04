@@ -265,7 +265,7 @@ a {
   display: flex;
 
   flex-direction: column;
-
+  background-color: #f4f4fd;
   align-items: center;
 }
 .team {
@@ -290,9 +290,7 @@ a {
 
   width: auto;
 }
-.team-fon {
-  background-color: #f4f4fd;
-}
+
 .team-title {
   display: flex;
 
