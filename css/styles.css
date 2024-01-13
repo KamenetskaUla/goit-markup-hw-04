@@ -454,7 +454,9 @@ a {
 }
 
 /*------Footer--------*/
-
+.foter {
+  margin-right: 120px;
+}
 .footer-fon {
   background-color: #2e2f42;
   width: auto;
@@ -462,6 +464,7 @@ a {
   gap: 120px;
   padding: 100px 0;
   padding-left: 156px;
+  align-items: baseline;
 }
 .text-footer {
   color: #f4f4fd;
@@ -495,7 +498,7 @@ a {
 }
 .footer-soc-icons-link {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
   align-items: center;
 
@@ -509,7 +512,7 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
-
+  margin-bottom: 16px;
   letter-spacing: 0.02em;
 }
 .icon-items-footer {
@@ -528,4 +531,6 @@ a {
 }
 .icons-items-footer:hover {
   background-color: #31d0aa;
+}
+.link-soc {
 }
