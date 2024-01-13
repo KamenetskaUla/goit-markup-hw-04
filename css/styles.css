@@ -261,7 +261,7 @@ a {
 
 /*--------Team----------*/
 
-.team-container {
+.section-team {
   display: flex;
 
   flex-direction: column;
