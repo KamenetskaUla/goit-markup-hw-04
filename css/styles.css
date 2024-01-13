@@ -546,7 +546,7 @@ a {
   transition: background-color 250ms (0.4, 0, 0.2, 1);
 }
 
-.icon-items-footer :hover,
-.icon-items-footer :focus {
+.link-soc-fot:hover,
+.link-soc-fot:focus {
   background-color: #31d0aa;
 }
