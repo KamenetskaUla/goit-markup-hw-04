@@ -89,6 +89,7 @@ a {
 .head-link::after {
   content: "";
   position: absolute;
+  width: 100%;
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -96,10 +97,10 @@ a {
   border-radius: 2px;
 }
 .head-link:hover ::after {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 .head-link:focus ::after {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 .contacts {
   font-size: 16px;
